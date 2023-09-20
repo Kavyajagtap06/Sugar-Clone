@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: -17px;
+}
+.navbar{
+    height: 43px;
+    padding: 16px;
+    padding-right: 0px;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-logo{
+    height: 43px;
+    width: 224px;
+}
+.logo{
+    background-image: url("logoo.png");
+    background-size: cover;
+    height: 40px;
+    width: 145px;
+}
+.nav-search{
+    display: flex;
+}
+.search-input{
+    width: 464px;
+    height: 36px;
+    padding: 1px 24px;
+    background-color: #212121;
+    color: white;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px 0px 0px 8px;
+    font-size: 14px;
+}
+.button{
+    color: #212121;
+    background-color: #ffffff;
+    font-size: 15px;
+    height: 24px;
+    width: 84px;
+    padding: 8px 10px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+}
+.nav-login{
+    height: 38.5px;
+    width: 337px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+.login-logo{
+    height: 19px;
+    width: 19px;
+    color: #ffffff;
+}
+.nav-items{
+    height: 32.5px;
+    width: 224px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+#nav-wishlist{
+    height: 18px;
+    width: 18px;
+    margin-left: 20px;
+}
+#nav-cart{
+    height: 18px;
+    width: 18px;
+    margin-left: 20px;
+}
+#nav-offers{
+    height: 18px;
+    width: 18px;
+    margin-left: 20px;
+}
+.navbar2{
+    height: 53px;
+    width: 100%;
+    background-color: #141414;
+}
+.nav-ops{
+    height: 53px;
+    width: 100%;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 19, 98);
+    transform-origin: bottom right;
+    transition: transform 1.3s ease-out;
+    
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .underline{
+    padding: 16px;
+  }
+  .hero-section{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hotdeals{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 26px;
+    color: #212529;
+    font-size: 20PX;
+    font-family: sans-serif;
+}
+.cenbor{
+    width: 3%;
+    opacity: 1;
+    border-top: 2px solid;
+    color: #fc2779;
+    margin: 16px 16px 16px 0px;
+}
+.cenbor1{
+    width: 3%;
+    opacity: 1;
+    border-top: 2px solid;
+    color: #fc2779;
+    margin: 16px 0px 16px 16px;
+}
+.hotdealblks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.box{
+    width: 402px;
+    height: 269.23px;
+    background-size: cover;
+}
+.toppicks{
+    width: 100%;
+    height: 330;
+    padding: 0px 24px 0px 24px;
+}
+.toppicksbar{
+    width: 100%;
+    height: 34px;
+    margin-top: 60px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+    font-size: 20PX;
+    font-family: sans-serif;
+}
+
+.toppicksblks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    
+}
+.refer{
+    width: 100%;
+    height: 330;
+    padding: 0px 24px 0px 24px;
+}
+.referbar{
+    width: 100%;
+    height: 34px;
+    margin-top: 60px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+    font-size: 20PX;
+    font-family: sans-serif;  
+}
+.referblk{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 16px 0px 16px;
+}
+.newlaunched{
+    width: 100%;
+    height: 330;
+    padding: 0px 24px 0px 24px;
+}
+.newlaunchedbar{
+    width: 100%;
+    height: 34px;
+    margin-top: 60px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+    font-size: 20PX;
+    font-family: sans-serif;  
+}
+.newlaunchedblks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 16px 0px 16px;
+}
+.explorebar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 26px;
+    color: #212529;
+    font-size: 20PX;
+    font-family: sans-serif;
+}
+.explore{
+    width: 100%;
+    height: 330;
+    padding: 0px 24px 0px 24px;  
+}
+.exploreblks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 16px 0px 16px;
+}
+.connect{
+    width: 100%;
+    height: 330;
+    padding: 0px 24px 0px 24px;
+}
+.connectbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 26px;
+    color: #212529;
+    font-size: 20PX;
+    font-family: sans-serif;
+}
+.connectitem{
+    width: 100%;
+    height: 68px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button1{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 134px;
+    height: 44px;
+    border-radius: 0 8px 8px 0;
+    line-height: 24px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-input{
+    width: 580px;
+    height: 44px;
+    border: 0.5px solid #999;
+    border-radius: 8px 0 0 8px;
+    font-size: 15px;
+}
+.connectline{
+    width: 100%;
+    height: 19px;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #212121;
+   
+}
